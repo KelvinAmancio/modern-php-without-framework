@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+    php:
+        image: kelvinbamancio/containerized-php:1.0.0
+        container_name: php-without-framework
+        restart: always
+        working_dir: /var/www/app
+        volumes:
+            - .:/var/www/app

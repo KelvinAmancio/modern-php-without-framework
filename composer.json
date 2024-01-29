@@ -1,0 +1,16 @@
+{
+    "name": "kelvinamancio/no-framework",
+    "description": "An instance of a modern PHP application bootstrapped without a framework.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kelvinamancio\\NoFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KelvinAmancio"
+        }
+    ],
+    "require": {}
+}
